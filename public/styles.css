@@ -1,0 +1,87 @@
+.square {
+  /* the square that resembles an offcanvas */
+  outline: solid;
+  outline-width: thin;
+  height: 1030px;
+  width: 350px;
+  background-color: #bfbfbf;
+  position: fixed;
+}
+.qbox {
+  /* the box that houses quantity and input field*/
+  background-color: #afabab;
+  outline: solid;
+  outline-width: thin;
+  height: 150px;
+  width: 350px;
+  top: 40%;
+  left: 0px;
+  position: absolute;
+}
+
+body {
+  margin: 0;
+  background-color: #e6e6e6;
+}
+.quantity {
+  /* the "quantity text"*/
+  color: black;
+  top: 420px;
+  left: 90px;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Name {
+  /* css code for the input box */
+  background-color: white;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 80px;
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  z-index: 999;
+}
+
+#dynamicSpace {
+  /* the invisible div to render the object */
+  background-color: #e6e6e6;
+  position: absolute;
+  width: 1100px;
+  height: 150px;
+  top: 50px;
+  left: 450px;
+}
+
+.objects {
+  /* the box that is dynamic rendered */
+  width: 1100px;
+  height: 150px;
+  background-color: gray;
+  color: white;
+  text-align: left;
+  line-height: 150px;
+  font-size: 20px;
+  padding-left: 50px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.circles {
+  /* the circle that is too dynamic rendered as the box */
+  width: 100px;
+  height: 100px;
+  background-color: #d0cece;
+  color: black;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 100px;
+  text-align: center;
+  position: relative;
+  top: -135px;
+  left: 30px;
+  border-radius: 50px;
+}
